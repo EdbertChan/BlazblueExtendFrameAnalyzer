@@ -1,0 +1,43 @@
+,A,B,C,D,Cancels
+5A,"5A, 2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, j.D","Throw, Jump, Special"
+5B,6A,"5B > B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, j.D","Jump, Special"
+5B > B,6A,"2B, 6B","5C, 2C, 6C, 3C","5D, 2D, j.D","Jump, Special"
+5C,-,6B,"5C > C, 2C, 6C","5D, 2D, j.D","Jump, Special"
+5C > C,-,6B,"2C, 6C","5D, 2D, j.D","Jump, Special"
+2A,"5A, 2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, j.D","Throw, Special"
+2B,6A,"2B > B, 5B","5C, 3C","5D, 2D, j.D",Special
+2B > B,-,5B,"5C, 2C,","5D, 2D, j.D",Special
+2C,-,-,2C > C,-,"Jump, Special"
+2C > C,-,-,5C,-,"Jump, Special"
+6A,-,-,5C,-,Special
+6B,-,6B > B,-,-,Special
+6B > B,-,-,-,-,Special
+6C,-,-,6C > C,-,"Jump, Special"
+6C > C,-,-,-,-,"Jump, Special"
+3C,-,-,3C > C,-,-
+3C > C,-,-,-,-,-
+j.A,j.A,j.B,j.C,-,"Jump, Throw, Special"
+j.B,-,j.B > B,j.C,-,"Jump, Special"
+j.B > B,-,-,j.C,-,"Jump, Special"
+j.C,-,-,j.C > C,-,"Jump, Special"
+j.C > C,-,-,-,-,Special
+A Sanctus Veritas,A Sanctus Veritas (followup),,,,
+B Sanctus Veritas,B Sanctus Veritas (followup),,,,
+C Sanctus Veritas,C Sanctus Veritas (followup),,,,
+D Sanctus Veritas,D Sanctus Veritas (followup),,,,
+A Sanctus Decus,A Sanctus Decus (charged followup),A Sanctus Decus (followup),,,
+B Sanctus Decus,B Sanctus Decus (charge followup),B Sanctus Decus (followup),,,
+C Sanctus Decus,C Sanctus Decus (charge followup),C Sanctus Decus (followup),,,
+D Sanctus Decus,D Sanctus Decus (charged followup),D Sanctus Decus (followup),,,
+A Sanctus Decus (charged),A Sanctus Decus (charged followup),A Sanctus Decus (followup),,,
+B Sanctus Decus (charged),B Sanctus Decus (charge followup),B Sanctus Decus (followup)
+C Sanctus Decus (charged),C Sanctus Decus (charge followup),C Sanctus Decus (followup)
+D Sanctus Decus (charged),D Sanctus Decus (charged followup),D Sanctus Decus (followup)
+A Aequum Eleison,A Aequum Eleison (followup),
+B Aequum Eleison,B Aequum Eleison (followup),
+C Aequum Eleison,C Aequum Eleison (followup),
+D Aequum Eleison,D Aequum Eleison (followup),
+A Lux Aeterna,A Lux Aeterna (followup),
+B Lux Aeterna,B Lux Aeterna (followup),
+C Lux Aeterna,C Lux Aeterna (followup),
+D Lux Aeterna,D Lux Aeterna (followup),

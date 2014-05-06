@@ -1,0 +1,84 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox	
+5A	CSJR	300	108	100	82	all	0	HB	6	3	9	-2	14	12	Click!	
+5B	SJR	520	187	85	89	HL	3	HB	10	5	17	-5	24	17	Click!	
+5B > B	S(J)R	400	144	100	89	HL	3	HB	11	3	19	-5	26	17	Click!	
+5C	S(J)R	640	230	90	89	HL	3	HB	8	3	23	-9	27	19	Click!	
+5C > C	S(J)R	620	223	100	92	HL	4	HB	13	3	27	-11	28	19	Click!	
+2A	CSR	300	108	80	82	all	0	F	7	2	8	0	11	12	Click!	
+2B	SR	560	144	80	86	L	2	F	13	3	12	-1	21	14	Click!	
+2B > B	SR	480	172	70	86	L	2	F	10	3	18	-7	15	14	Click!	
+2C	SJR	660	237	80	89	HL	3	HB	13	5	18	-6	23	25	Click!	
+2C > C	SJR	680	244	80	89	HL	3	HB	16	3	24	-10	24	32	Click!	
+6A	SR	620	223	70	89	H	3	HBF	26	2	24	-9	29	26	Click!	
+6B	SR	400	144	80	92	L	4	F	21	3	15	1	26	19	Click!	
+6B > B	SR	420	151	80	92	L	4	F	15	4	20	-5	28	19	Click!	
+6C	(S)JR	250x6	90x6	100	90(once)*	HL	22	HBF	23	6	38	-15	35	21	Click!	
+6C > C	(SJ)R	300x3	108x3	100	94(once)	HL	5	HBF	22	3	35	-15	29	27	Click!	
+3C	R	720	259	80	92	L	4	F	18	10	22	-13	27	40	Click!	
+3C > C	R	980	352	100	92*	HL	4	HB	17	2	43	-26	24	54	Click!	
+j.A	CSJR	300	108	90	84	HA	1	H	8	2	6	-	13	14	Click!	
+j.B	SJR	560	201	90	86	HA	2	H	8	4	12	-	13	14	Click!	
+j.B > B	S(J)R	480	172	90	86	HA	2	H	7	3	24	-	during move	16	Click!	
+j.C	SJR	680	244	90	89	HA	3	H	13	5	20	-	24	22	Click!	
+j.C > C	SR	480	172	90	89	HA	3	H	10	2	31	-	24	22	Click!	
+Forward Throw	"-, SR"	"0, 1300"	"0, 468"	90	"100, 55"	100	0	ground throw	7	3	19	-	during move	"12, 50"	Click!	
+Back Throw	"-, SR"	"0, 1300"	"0, 468"	90	"100, 55"	100	0	ground throw	7	3	19	-	during move	"12, 50"	Click!	
+Air Throw	"-, SR"	"0, 1400"	"0, 504"	100	"100, 55"	100	0	air throw	7	3	17	-	during move	"12, 60"	Click!	
+Counter Assault	R	0	0	50	92	all	4	HB	10	4	39	-24	-	34	Click!	
+5D	-	-	-	-	-	-	-	-	9	0	18	-	during move	-	Click!	
+2D	-	-	-	-	-	-	-	-	6	0	18	-	during move	-	Click!	
+j.D	-	-	-	-	-	-	-	-	9	0	14	-	during move	-	Click!	
+Special																
+A Sanctus Aequum	R	600	216	75	70	all	3	HB	18	6	18	-7	39	20	Click!	
+B Sanctus Aequum	R	650	234	75	70	all	3	HB	18	10	20	-13	41	28	Click!	
+C Sanctus Aequum	R	700	252	75	70	all	3	HB	19	10	20	-13	42	35	Click!	
+D Sanctus Aequum	R	800 (900)	288 (324)	75	89 (92)*	all	24	HB	16	10	24	-4	42	45	Click!	
+A Sanctus Veritas	R	600	216	70	70	HL	4	HB	17	3	25	-7	34	42	Click!	
+B Sanctus Veritas	R	650	234	75	70	HL	4	HB	22	3	23	-7	41	45	Click!	
+C Sanctus Veritas	R	700	252	80	70	HL	4	HB	30	3	24	-7	49	50	Click!	
+D Sanctus Veritas	R	900 (1000)	324 (360)	80	92 (94)*	HL	4	HB	22	3	23	-7	26	60	Click!	
+A Sanctus Veritas (followup)	R	600	216	70	70	HL	22	HB	17	3	23	-7	34	42	Click!	
+B Sanctus Veritas (followup)	R	650	234	75	70	HL	4	HB	22	3	23	-7	41	42	Click!	
+C Sanctus Veritas (followup)	R	700	252	80	70	HL	4	HB	28	3	24	-7	47	42	Click!	
+D Sanctus Veritas (followup)	R	900 (1000)	324 (360)	80	92(94)*	HL	4	HB	17	3	23	-7	26	60	Click!	
+A Sanctus Decus	R	600	216	70	70*	all	29	HB	10	4	30	-9	31	35	Click!	
+B Sanctus Decus	R	650	234	70	70*	all	29	HBP	17	4	26	-5	24	45	Click!	
+C Sanctus Decus	R	700	252	70	70*	all	29	HB	19	4	26	-5	27	45	Click!	
+D Sanctus Decus	R	750 (850)	270 (306)	80	89 (92)*	all	3	HB	14	4	20	-7	27	60	Click!	
+A Sanctus Decus (charged)	R	600	216	70	70*	all	29	HB	40	4	30	-9	61	35	Click!	
+B Sanctus Decus (charged)	R	650	234	70	70*	all	29	HBP	43	4	22	-5	50	45	Click!	
+C Sanctus Decus (charged)	R	700	252	70	70*	all	29	HB	45	4	26	-5	53	45	Click!	
+D Sanctus Decus (charged)	R	750 (850)	270 (306)	80	94 (92)*	unblockable	5	HB	39	4	20	-	52	70	Click!	
+A Sanctus Decus (followup)	R	600	216	70	55*	all	4	HB	10	4	30	-9	19	31	Click!	
+B Sanctus Decus (followup)	R	650	234	70	55*	all	29	HB	17	4	26	-5	24	45	Click!	
+C Sanctus Decus (followup)	R	700	252	70	55	all	29	HB	19	4	26	-5	27	45	Click!	
+D Sanctus Decus (followup)	R	750 (850)	270 (306)	80	89 (92)*	all	3	HB	14	3	20	-7	27	60	Click!	
+A Sanctus Decus (charged followup)	R	600	216	70	55*	all	29	HB	40	4	30	-9	61	35	Click!	
+B Sanctus Decus (charge followup)	R	650	234	70	55*	all	29	HB	43	4	22	-5	50	45	Click!	
+C Sanctus Decus (charge followup)	R	700	252	70	55*	all	29	HB	45	4	26	-5	53	45	Click!	
+D Sanctus Decus (charged followup)	R	750 (850)	270 (306)	80	94 (92)*	99	99	HB	39	4	20	-	52	70	Click!	
+A Benedictus Rex	R	600	216	70	74	all	29	HBFP	10	7	39	-13	40	40	Click!	
+B Benedictus Rex	R	700	252	70	74	HL	29	HBFP	10	7	45	-18	46	40	Click!	
+C Benedictus Rex	R	800	288	70	84	HL	29	HBFP	10	8	60	-17	50	52	Click!	
+D Benedictus Rex	R	430x3 (522x3)	169x3 (187x3)	70	92(once) (94(once))*	HL	29	HBF	10	9	47	-9	43	40	Click!	
+A Aequum Eleison	R	600	216	60	85	all	3	H	13	3	9	-	25	20	Click!	
+B Aequum Eleison	R	650	234	60	85	all	3	H	21	5	12	-	33	20	Click!	
+C Aequum Eleison	R	700	252	100	85	all	3	H	21	5	12	-	33	20	Click!	
+D Aequum Eleison	R	"750, 300 (850, 300)"	"270, 72 (306, 108)"	"100, 90"	"92, 90 (94, 90)*"	all	4	"H, HBP"	17	9	67	-	till landing	"60, 20"	Click!	
+A Aequum Eleison (followup)	R	600	216	60	85	all	3	H	13	3	9	-	25	20	Click!	
+B Aequum Eleison (followup)	R	400	144	60	85	all	3	H	21	5	12	-	33	20	Click!	
+C Aequum Eleison (followup)	R	450	162	100	85	all	3	H	21	5	12	-	33	20	Click!	
+D Aequum Eleison (followup)	R	"750, 300 (850, 300)"	"270, 72 (306, 108)"	"100, 90"	"92, 90 (94, 90)*"	all	29	"H, HBP"	17	9	67	-	till landing	"60, 20"	Click!	
+A Lux Aeterna	R	700	252	100	85	all	4	H	17	7	21	-	during move	22	Click!	
+B Lux Aeterna	R	750	270	100	85	all	4	H	15	7	21	-	during move	19	Click!	
+C Lux Aeterna	R	800	288	100	85	all	4	H	15	7	21	-	during move	20	Click!	
+D Lux Aeterna	R	850 (950)	306 (342)	90	92 (94)*	all	4	H	9	7	21	-	during move	70	Click!	
+A Lux Aeterna (followup)	R	300	108	100	85	all	4	H	9	7	21	-	during move	25	Click!	
+B Lux Aeterna (followup)	R	300	108	100	85	all	4	H	9	7	21	-	during move	25	Click!	
+C Lux Aeterna (followup)	R	300	108	100	85	all	4	H	9	7	21	-	during move	25	Click!	
+D Lux Aeterna (followup)	R	850 (950)	306 (342)	90	92 (94)*	all	4	H	9	7	21	-	during move	70	Click!	
+Super
+C Confutatis Maledictis	R*	"300, 2600"	0	100	92	all	4	HBP	9	15	26	-22	23	"40, 50"	Click!	
+D Confutatis Maledictis	R	300xN*	0	100	92	all	4	HBP	5	15	26	-22	19	"40, 50"	Click!	
+Macto Maledictis	-	-	-	-	-	-	-	-	0	0	7	3	during move	-	Click!	
+Requiem Aeternam	-	death	0	-	-	-	-	H	12	10	24	-20	during move	-	Click!	

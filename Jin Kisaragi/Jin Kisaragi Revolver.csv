@@ -1,0 +1,23 @@
+5A,"5A, 2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D","Throw, Jump, Special"
+5B,6A,"2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D","Throw, Jump, Special"
+5C,-,6B,"2C, 6C, 3C","5D, 2D, 6D","Jump, Special"
+5D,-,-,-,-,"Special, Dash"
+2A,"5A, 2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D","Throw, Jump, Special"
+2B,-,5B,"5C, 2C, 6C, 3C","5D, 2D, 6D",Special
+2C,-,6B,"6C, 3C","5D, 2D, 6D","Jump, Special"
+2D,-,-,-,-,-
+6A,-,-,-,-,Throw
+6B,-,-,-,-,Special
+6C,-,-,-,"2D, 6D","Special, Dash"
+6D,-,-,-,-,-
+3C,-,-,-,-,Special
+j.A,j.A,j.B,"j.C, j.2C",j.D,"Throw, Special"
+j.B,j.A,-,"j.C, j.2C",j.D,"Jump, Special"
+j.C,-,-,j.2C,j.D,"Jump, Special"
+j.2C,-,-,j.C,j.D,"Jump, Special"
+j.D,-,-,-,-,Special
+Musou Tosshougeki (1),Musou Tosshougeki (2),,,,
+B Musou Senshouzan (1),B Musou Senshouzan (2),,,,
+C Musou Senshouzan (1),C Musou Senshouzan (2),,,,
+B Musou Senshouzan (1) (air),B Musou Senshouzan (2) (air),,,,
+C Musou Senshouzan (1) (air),C Musou Senshouzan (2) (air),,,,

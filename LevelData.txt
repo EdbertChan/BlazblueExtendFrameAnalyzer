@@ -1,0 +1,8 @@
+	Lvl 0	Lvl 1	Lvl 2	Lvl 3	Lvl 4	Lvl 5
+Hitstop	10	11	12	13	14	15
+Hitstop (Counter Hit)	0	0	2	3	7	10
+Hitstun (Standing)	10	12	14	17	19	21
+Hitstun (Ground Counter Hit)	4	4	4	5	5	6
+Untechable (Air Hit)	12	14	14	17	19	21
+Untechable (Air Counter Hit)	11	12	12	14	15	16
+Blockstun (Ground)	9	11	13	16	18	20

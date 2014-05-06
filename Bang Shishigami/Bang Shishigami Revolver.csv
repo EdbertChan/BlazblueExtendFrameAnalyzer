@@ -1,0 +1,20 @@
+,A,B,C,D,Cancels
+5A,"2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 5D [FRKZ], 2D, 6D","Special, Jump, Throw"
+5B,6A,2B,"5C, 2C, 6C","5D, 5D [FRKZ], 2D, 6D","Special, Jump"
+5C,6A,6B,2C,"5D, 5D [FRKZ], 2D, 6D","Special, Jump"
+5D [FRKZ],-,-,-,-,"Special, Jump"
+5D,-,-,-,-,"Special, Jump"
+2A,2A,"5B, 2B","2C, 6C, 3C","5D, 5D [FRKZ], 2D, 6D","Special, Throw"
+2B,,5B,"2C, 6C, 3C","5D, 5D [FRKZ], 2D, 6D","Special, Jump"
+2C,-,-,-,"2D, 6D","Special, Jump"
+2D,-,-,-,-,Jump
+6A,-,-,2C,Yes,"Special, Jump"
+6B,-,-,-,j.D,-
+6C,-,-,-,-,"Special, Jump"
+3C,-,-,-,-,-
+6D,-,-,-,-,"Special, Jump"
+j.A,j.A,j.B,"j.C, j.4C",j.D,"Special, Jump, Throw"
+j.B,-,-,j.C,j.D,"Special, Jump"
+j.C,-,-,-,j.D,Special
+j.4B,-,-,-,-,"Special, Jump"
+j.4C,-,-,j.C,j.D,"Special, Jump"

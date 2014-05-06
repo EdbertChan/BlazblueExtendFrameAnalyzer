@@ -1,0 +1,27 @@
+5A,"5A, 2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D","Throw, Jump, Special"
+5B,6A,2B,"5C, 2C, 3C","5D, 2D, 6D",Special
+5C,6A,-,"2C, 6C, 3C","5D, 2D, 6D","Jump, Special"
+5D,-,-,-,-,"Special, Dash"
+2A,"5A, 2A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D",Special
+2B,-,"5B, 6B","5C, 2C, 3C","5D, 2D, 6D",Special
+2C,6A,6B,"5C, 6C, 3C","5D, 2D, 6D",Special
+2D,-,-,-,-,-
+6A,-,-,-,-,"Jump, Special"
+6B,-,-,"5C, 2C, 3C","5D, 2D, 6D",Special
+6C,-,-,-,"2D, 6D","Jump, Special, Dash"
+6D,-,-,-,j.D,"Jump, Special"
+3C,-,-,-,2D,"Jump, Special"
+j.A,j.A,j.B,j.C,j.D,"Jump, Throw, Special"
+j.B,-,-,j.C,j.D,"Jump, Special"
+j.C,-,-,-,j.D,"Jump, Special"
+j.D,-,-,-,-,"Jump, Special"
+Hell's Fang,Additional Attack,Additional Attack(BK),,,
+C Inferno Divider,Upper,,,,
+C Inferno Divider(air),Upper,,,,
+D Inferno Divider,Upper,,,,
+D Inferno Divider(air),Upper,,,,
+D Inferno Divider(BK),Upper,,,,
+D Inferno Divider(BK)(air),Upper,,,,
+Upper,Ax Kick(BK),Ax Kick,Straight Punch,,
+Gauntlet Hades,Spin Kick,Spin Kick(BK),,,
+Gauntlet Hades(air),Spin Kick,Spin Kick(BK),,,

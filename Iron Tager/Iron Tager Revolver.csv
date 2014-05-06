@@ -1,0 +1,24 @@
+,A,B,C,D,Cancels
+5A,"2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 4D","Throw, Jump, Special"
+5B,6A,"2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 4D","Throw, Jump, Special"
+5C,6A,6B,"6C, 3C","5D, 2D, 4D",Special
+5D,-,-,-,-,Special
+2A,2A,"5B, 2B","5C, 2C, 3C","5D, 2D, 4D","Throw, Jump, Special"
+2B,-,5B,"2C, 3C",2D,Special
+2C,-,-,3C,-,Special
+2D,-,-,-,-,-
+6A,-,6B,"2C, 6C, 3C","5D, 2D, 4D",Special
+6A (Charged),-,6B,"2C, 6C, 3C","5D, 2D, 4D",Special
+6B,-,6B,"2C, 6C","5D, 4D",Special
+6C,-,-,-,"5D, 2D, 4D","Jump, Special"
+3C,-,-,-,-,Special
+4D,-,-,-,-,-
+j.A,j.A,j.B,j.C,j.D,Throw
+j.B,j.A,-,j.C,j.D,-
+j.C,-,j.B,-,-,-
+j.2C,-,-,-,-,-
+j.D,-,-,-,-,-
+A Sledgehammer,Sledgehammer (followup),,,,
+B Sledgehammer,Sledgehammer (followup),,,,
+B Sledgehammer (Charge),Sledgehammer (followup),,,,
+Magna Tech Wheel,Terra Break,,,,

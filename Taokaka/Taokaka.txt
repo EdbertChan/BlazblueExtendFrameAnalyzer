@@ -1,0 +1,62 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox
+5A	CSJRD	216	89	80	82	all	0	HB	7	2	10	-2	10	12	Click!
+5B	SJRD	400	165	90	86	HL	1	HB	6	3	9	-1	14	14	Click!
+5C	SJRD	550	227	90	89*	HL	3	HB	10	3	24	-10	21	17	Click!
+2A	SR	300	124	70	82	LA	0	F	8	3	8	-1	12	12	Click!
+2A	CSRD	216	89	70	82	LA	0	F	6	3	11	-4	15	12	Click!
+2B	SRD	360	149	80	86	L	1	F	7	4	12	-4	13	14	Click!
+2C	SRD	575	238	100	89	HL	3	BF	14	2	21	-6	28	17	Click!
+6A	SJRDx2	320x2	132x2	70	86(once)	HL	2	HB	13	3	18	-7	30	18	Click!
+6B	SRD	440	182	70	89	HA	3	H	26	3	12	2	32	17	Click!
+6C	SRD	700	289	80	92	HL	4	HB	19	6	18	-5	40	30	Click!
+6C (max charge)	SRD	1100	455	80	92	HL	4	HB	60	6	18	5	81	30	Click!
+3C	SR	"390x2, 440"	"161x2, 182"	90	89	"HLx2, L"	3	F	10	3	25	-11	55	"17x2, 40"	Click!
+j.A	CSJRD	165	68	90	84	HA	1	H	6	2	9	-	10	14	Click!
+j.B	SJRD	140x2	57x2	90	86(once)	"HA, all"	2	H	8	2	15	-	21	17	Click!
+j.2B	SJRD	385	159	90	89	all	3	H	13	3	19	-	28	17	Click!
+j.C	SJRD	480	198	90	89	HA	3	H	9	3	21	-	23	20	Click!
+Forward Throw	"-, R"	"0, 1000"	"0, 414"	90	"100, 55"	100	0	ground throw	7	3	18	-	during move	"12, 60"	Click!
+Back Throw	"-, R"	"0, 1000"	"0, 414"	90	"100, 55"	100	0	ground throw	7	3	18	-	during move	"12, 60"	Click!
+Air Throw	"-, R"	"0, 1400"	"0, 579"	100	"100, 55"	90	0	air throw	7	3	15	-	during move	"12, 60"	Click!
+Counter Assault	R	0	0	50	92	all	4	HB	15	6	30	-17	30	30	Click!
+5D	R	600	248	70	92*	all	4	H	15	9	30	-	during move	35	Click!
+2D	R	650	269	80	92*	all	2	H	13	10	10	-	during move	40	Click!
+4D	R	750	310	90	92*	HA	3	H	35	16	9	-	during move	42	Click!
+j.D	R	550	227	70	92*	all	4	H	11	12	10	-	during move	37	Click!
+j.2D	R	600	248	70	92*	all	4	H	12	0	25	-	during move	36	Click!
+j.8D	R	580	240	85	92*	all	2	H	10	10	10	-	during move	41	Click!
+j.4D	R	700	289	90	92*	all	4	H	17	9	28	-	during move	35	Click!
+Forward Cancel	S	-	-	-	-	-	0	-	0	0	22	-	during move	-	Click!
+Back Cancel	SR	-	-	-	-	-	0	-	0	0	20	-	during move	-	Click!
+A Cancel	-	-	-	-	-	-	0	-	0	0	18	-2	during move	-	Click!
+B Cancel	-	-	-	-	-	-	0	-	0	0	16	-5	-	-	Click!
+C Cancel	-	-	-	-	-	-	0	-	0	0	16	-	during move	-	Click!
+Specials 															
+Cat Spirit 1	RD	280xN	115	80	80	all	2	HB	14	2	18	-6*	20	26	Click!
+Cat Spirit 2	RD	380	157	100	80	all	1	H	9	4	12	-	21	17	Click!
+Cat Spirit 2 (5th hit)	R	800	331	90	80	all	4	H	26	4	12	-	49	34	Click!
+Cat Spirit 3 (downswing)	RD	660 [580]	273 [240]	70	92*	HA [all]	4	HBF	30	2	17	0	36	26	Click!
+Cat Spirit 3 (downswing max charge)	RD	820	339	70	92*	H	4	HBF	61	2	17	0	67	26	Click!
+Cat Spirit 3 (upswing)	RD	580	240	70	92*	all	4	HBF	13	4	22	-7	56	26	Click!
+Cat Jump	see notes*	-	-	-	-	0	0	-	0	0	38	-	during move	-	Click!
+Sticky Kitty	see notes*	-	-	-	-	0	0	-	0	0	17	-	during move	-	Click!
+Trick Edge	R	600	248	90	92	all	5	H	4	10	25	-	during move	35	Click!
+Trick Edge (down)	R	600	248	90	92	all	5	H	4	0	25	-	during move	33	Click!
+Trick Edge (back)	R	700	289	90	92*	all	4	H	17	9	28	-4	31	20	Click!
+Slashy Slashy	RD	80x6	33x6	100	99	HL	3	BF	9	6	15	-4	31	20	Click!
+A Kitty Litter Special	R	-	-	-	-	0	0	-	30	0	52	-	during move	-	Click!
+B Kitty Litter Special	R	-	-	-	-	0	0	-	30	0	52	-	during move	-	Click!
+C Kitty Litter Special	R	-	-	-	-	0	0	-	33	0	56	-	during move	-	Click!
+Apple	R	150	62	100	84	all	1	HBP	0	0	0	-	-	14	Click!
+Bomb	R	150x2	62x2	100	84	all	1	HBP	0	0	0	-	-	30	Click!
+Chibikaka	R	216	447	100	84	all	1	HBP	0	0	0	-	-	14	Click!
+Pillow	R	150x2	62x2	100	84	all	1	HBP	0	0	0	-	-	14	Click!
+Hammer	R	200	82	100	89	all	3	HBP	0	0	0	-	-	17	Click!
+Baseball	R	200	82	100	86	all	1	HBP	0	0	0	-	-	14	Click!
+Fish	R	200	82	100	84	all	1	HBP	0	0	0	-	-	14	Click!
+Bowling Ball	R	300	124	100	89	all	3	HBFP	0	0	0	-	-	17	Click!
+Super
+Hexa Edge	R	"450x4, 1900"	0	90	92x5	all	4	HBF	7	2	43	-26	during move	"60x4, 55"	Click!
+Imma Beat The Crap Outta You	R	"0, 3300"	0	100	"100, 20"	40	0	throw	16	10	55	-	during move	"12, 1000"	Click!
+Almost Becoming Two	R	-	-	-	-	-	0	-	1	-	9	-	during move	-	Click!
+Definitely Nyaa-mber One	-	death	0	-	-	all	1	H	2	10	55	-53	-	-	Click!

@@ -1,0 +1,31 @@
+5A,"5A, 2A, 6A","5B, 2B, 6B, 4B","5C, 2C, 6C, 3C","Throw, Jump, Special"
+5B,6A,"2B, 6B, 4B","5C, 2C, 6C, 3C","Throw, Jump, Special"
+5C (2-8),,4B,"5C (2-8), 2C, 6C, 3C",Special
+5C (1),,4B,"5C (2-8), 2C, 6C, 3C",Special
+2A,"5A, 2A, 6A","5B, 2B, 6B, 4B","5C, 2C, 6C, 3C","Throw, Special"
+2B,-,"6B, 4B","5C, 2C, 6C, 3C","Throw, Special"
+2C,-,-,"5C, 6C, 3C","Jump, Special"
+6A,-,"5B, 2B, 6B, 4B","5C, 2C, 6C, 3C","Throw, Jump, Special"
+6B,-,4B,"5C, 2C, 6C, 3C","Throw, Jump, Special"
+4B,4B (2),-,-,-
+6C,-,-,-,Special
+3C,-,-,-,Special
+
+Drive Revolver Action Table,,,,
+,B,C,D,Cancels
+5D,-,-,"Followup, 4D",Special
+5D > D,-,-,"Followup, 2D, 6D, 4D",Special
+2D,-,-,Followup,"Jump, Special"
+2D > D,4B,6C,"6D, 4D","Jump, Special"
+6D,-,-,Followup,"Jump, Special"
+6D > D,-,-,2D,"Jump, Special"
+4D,-,-,Followup,Special
+4D > D,4B,-,-,Special
+j.D,-,-,Followup,Special
+j.D > D,-,-,j.2D,"Jump, Special"
+j.2D,-,-,Followup,Special
+j.2D > D,-,-,-,"Jump, Special"
+j.A,j.A,j.B,j.2C,"Throw, Special"
+j.B,j.A,-,"j.C, j.2C","Throw, Jump, Special"
+j.C,j.A,-,j.2C,"Throw, Jump, Special"
+j.2C,-,j.B,-,"Jump, Special"

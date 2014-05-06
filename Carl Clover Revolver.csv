@@ -1,0 +1,15 @@
+,A,B,C,Cancels
+5A,"2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","Special, Jump"
+5B,6A,"2B, 6B",5C,"Special, Jump"
+5C,-,-,"2C, 3C","Special, Jump"
+2A,5A,"5B, 2B, 6B","5C, 2C, 3C","Special, Jump"
+2B,6A,"5B, 6B","5C, 2C, 3C",Special
+2C,-,-,-,Special
+6A,-,-,-,"Special, Jump"
+6B,6A,-,6C,"Special, Jump"
+6C,-,-,-,Special
+3C,-,-,-,"Special, Jump"
+j.A,j.A,j.B,"j.C, j.2C","Special, Jump"
+j.B,j.A,-,"j.C, j.2C","Special, Jump"
+j.C,-,-,-,"Special, Jump"
+j.2C,j.A*,j.B*,j.C*,Special

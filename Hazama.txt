@@ -1,0 +1,62 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox
+5A	CSJR	250	124	80	84	all	1	HB	5	3	9	0	10	14	Click!
+5B	SJR	550	227	90	89	HL	3	HB	8	3	12	2	13	17	Click!
+5C	SJR	300x2	124x2	100	89(once)	HL	4	HB	10	8	22	-9	17	23	Click!
+2A	CSR	300	124	80	84	all	1	F	6	2	9	1	10	14	Click!
+2B	SR	450	186	80	86	L	2	F	10	2	13	-1	17	14	Click!
+2C	SJR	660	273	90	89	HL	3	HBF	13	3	25	-11	28	25	Click!
+6A	DR	600	248	70	92	H	4	HB	22	3	21	-5	33	19	Click!
+6B	DR	600	248	90	89	L	3	F	25	2	12	3	32	17	Click!
+6C	R	500x3	310x3	100	89(once)	all	3	FP	20	16	21	-3	44	17	Click!
+3C	SR	700	289	80	92	L	4	F	14	4	21	-6	35	40	Click!
+j.A	CSJR	300	124	90	84	HA	1	H	7	3	8	-	12	14	Click!
+j.B	SJR	450	186	90	86	HA	2	H	10	4	14	-	during move	16	Click!
+j.C (1)	SJR	600	248	90	89	HA	3	H	10	2	23	-	25	17	Click!
+j.C (2)	SJR	300	124	90	89	HA	3	H	7	2	23	-	22	21	Click!
+j.C (3)	SR	300	124	90	89	HA	3	H	7	2	23	-	22	21	Click!
+j.C (4)	SR	300	124	90	89	HA	3	H	11	2	21	-	25	21	Click!
+j.C (5)	SR	700	289	90	89*	HA	3	H	9	2	26	-	27	25	Click!
+j.2C	SJR	620	256	90	92	HA	4	H	14	3	23	-	during move	19	Click!
+Forward Throw	"-, SR"	"0, 1400"	"0, 579"	90	"100, 55"	130	0	ground throw	7	3	17	-	during move	"12, 70"	Click!
+Back Throw	"-, SR"	"0, 1800"	"0, 745"	90	"100, 55"	130	0	ground throw	7	3	13	-	during move	"12, 60"	Click!
+Air Throw	"-, SR"	"0, 1400"	"0, 579"	100	"100, 55"	120	0	air throw	7	3	12	-	during move	"12, 60"	Click!
+Counter Assault	R	0	0	50	92	all	4	HB	8	4	30	-15	26	19	Click!
+5D (Close)	SR	300/500	124/207	100/70	84/94*	all	11	HBP	16	7	17	-	8F of recovery	14/24	Click!
+2D (Close)	SR	400/600	165/248	100/70	84/86*	all	11	HBP	16	2	15	-	9F of recovery	14/24	Click!
+6D (Close)	SR	400/600	165/248	100/70	84/86*	all	11	HBP	16	5	15	-	6F of recovery	14/24	Click!
+4D (Close)	SR	400/600	165/248	100/70	84/86*	all	11	HBP	16	3	15	-	6F of recovery	14/24	Click!
+j.D (Close)	SR	300/500	124/207	100/70	84/86*	all	11	HP	16	6	28	-	12F of recovery	14/24	Click!
+j.2D (Close)	SR	300/500	124/207	100/70	84/86*	all	11	HBP	16	6	28	-	12F of recovery	14/24	Click!
+j.6D (Close)	SR	200/500	82/207	100/70	84/86*	all	11	HBP	16	6	28	-	12F of recovery	14/24	Click!
+j.4D (Close)	SR	300/500	124/207	100/70	84/86*	all	11	HBP	16	6	28	-	12F of recovery	14/24	Click!
+j.8D (Close)	SR	400/600	165/248	100/70	84/94*	all	11	HBP	16	6	28	-	12F of recovery	14/24	Click!
+5D	SR	300/500	124/207	100/70	84/94*	all	13	HBP	16	14	17	-	8F of recovery	14/24	Click!
+2D	SR	400/600	165/248	100/70	84/86*	all	13	HBP	16	21	15	-	9F of recovery	14/24	Click!
+6D	SR	400/600	165/248	100/70	84/86*	all	13	HBP	16	19	15	-	6F of recovery	14/24	Click!
+4D	SR	400/600	165/248	100/70	84/86*	all	13	HBP	16	21	15	-	6F of recovery	14/24	Click!
+j.D	SR	300/500	124/207	100/70	84/86*	all	13	HP	16	14	28	-	12F of recovery	14/24	Click!
+j.2D	SR	300/500	124/207	100/70	84/86*	all	13	HBP	16	14	28	-	12F of recovery	14/24	Click!
+j.6D	SR	200/500	82/207	100/70	84/86*	all	13	HBP	16	14	28	-	12F of recovery	14/24	Click!
+j.4D	SR	300/500	124/207	100/70	84/86*	all	13	HBP	16	14	28	-	12F of recovery	14/24	Click!
+j.8D	SR	400/600	165/248	100/70	84/94*	all	13	HBP	16	14	28	-	12F of recovery	14/24	Click!
+A Followup	-	-	-	-	-	-	-	-	-	-	refer to notes*	-6*	refer to notes*	-	-
+B Followup	-	-	-	-	-	-	-	-	5	-	12	-22*	during move	-	Click!
+C Followup	-	-	-	-	-	-	-	-	33	-	33	-15*	during move	-	Click!
+D Followup	-	-	-	-	-	-	-	-	29	-	29	0*	during move	-	Click!
+Special															
+Jabaki	R	450	186	100	70*	all	23	HBP	15	2	21	1	35	30	Click!
+Jasetsu	-	-	-	-	-	-	-1	-	0	0	0	-	during move	-	Click!
+Ressenga	R	700	434	60	89	HA	3	HB	25	3	12	2	24	17	Click!
+Ressenga (S)	R	900	558	60	94	H	5	HB	34	4	12	5	24	21	Click!
+Gashoukyaku	R	700	579	70	82*	HL	4	HB	13	5	34	-20	37	30	Click!
+Gashoukyaku (S)	R	1000	828	80	94	HL	5	HB	32	5	34	-18	37	30	Click!
+Zaneiga	R	1000	621	80	90*	LA	4	F	27	3	17	-1	34	50	Click!
+Zaneiga (S)	R	1200	745	85	94*	L	5	F	46	3	17	1	34	50	Click!
+Stance Cancel	-	-	-	-	-	-	-	-	0	0	18	-	during move	-	
+Hirentotsu	R	700	579	75	92	all	4	HB	13	3	19	-10*	30	50	Click!
+Gasaishou	-	0	0	100	"100, 60"	90	0	ground throw	12	2	31	+11*	during move	12	Click!
+Jakou	R	"0, 2000"	"0, 828"	70	100*	AA throw	4	HBP	14	3	41	-	during move	"19, 70"	Click!
+Super
+Jayoku Houtenjin	R	2500	0	50	94*	all	5	HB	7	3	52	-34	during move	120	Click!
+Mizuchi Rekkazan	R	"200, 0, 500x8, 3200"	0	100	"82, 100, 84x9"	all	0	"HBPx2, HBx9"	21	2	54	-46	during move	"12, 120, 90x9"	Click!
+Senkon Meiraku	-	death	0	-	-	all	5	HBP	17	0	116	-43	-	-	Click!

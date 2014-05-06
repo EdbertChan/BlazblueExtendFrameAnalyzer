@@ -1,0 +1,40 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox
+5A	SJR	460	190	80	86	all	2	HB	7	3	7	4	9	14	Click!
+5B	SJR	520	215	80	89	L	3	F	10	3	14	0	22	20	Click!
+5C	SR	1000	414	100	92	all	4	HB	15	4	18	-2	30	26	Click!
+2A	CSJR	400	165	80	86	all	2	BF	8	3	9	2	16	14	Click!
+2B	SR	650	269	85	89	L	3	F	11	3	9	5	16	17	Click!
+2C	SR	1200	496	90	92	HL	4	HBF	15	2	39	-22	42	32	Click!
+6A	SR	800 (1000)	331 (414)	80	89 (94)	HL	3	HB	19	7	37	-27	42 (75)	17 (21)	Click!
+6A (Charged)	SR	800 (1000)	331 (414)	80	89 (94)	HL	5	HB	52	7	37	-27	42 (75)	17 (21)	Click!
+6B	SR	960	397	70	92	H	4	HBF	24	2	28	-11	40	19	Click!
+6C	S(J)R	1500	621	90	80*	H	4	HBF	28	2	33	-16	53	33	Click!
+3C	SR	760	314	90	88*	L	4	F	14	3	22	-6	24	70	Click!
+j.A	R	500	207	90	86	HA	2	H	7	3	9	-	14	17	Click!
+j.B	R	700	289	90	89	HA	3	H	12	9	12	-	29	25	Click!
+j.C	R	1050	434	90	92	HA	4	H	13	5	12	-	27	25	Click!
+j.2C	R	1200	496	90	92	HA	4	H	15	0	18	-	2F after landing	32	Click!
+Forward Throw	"-, SR"	"0, 1900"	"0, 786"	90	"100, 55"	210	0	ground throw	6	3	15	-	during move	"12, 100"	Click!
+Back Throw	"-, R"	"0, 1200"	"0, 662"	90	"100, 55"	210	0	ground throw	7	3	15	-	during move	"12, 100"	Click!
+Air Throw	"-, R"	"0, 1900"	"0, 786"	100	"100, 55"	160	0	air throw	6	2	10	-	during move	"12, 60"	Click!
+Counter Assault	R	0	0	50	92	HA	4	HB	16	2	37	-20	during move	34	Click!
+5D	SR	1100	445	85	92	all	28	HB	23	7	20	-4	33	19	Click!
+2D	R	1200	496	100	92	all	32	HBF	26	10	24	-1	47	38	Click!
+4D	R	800	331	60	80	all	24	HB	13	5	20	0	during move	24	Click!
+j.D	R	1120	463	100	92	HA	4	H	21	3	18	-	during move	19	Click!
+Special															
+A Gigantic Tager Driver	-	"0x3, 2700"	"0x3, 1117"	100	"100, 82, 100, 20"	275	4	ground throw	11	1	40	-	during move	"12, 200, 12, 100"	Click!
+B Gigantic Tager Driver	-	"0x3, 3700"	"0x3, 1531"	100	"100, 82, 100, 20"	210	4	ground throw	6	2	29	-	during move	"12, 200, 12, 100"	Click!
+Atomic Collider	"-, R"	"0, 1600"	"0, 993"	"100, 60"	"100, 80*"	-	0	anti-air throw	16	4	19	-	during move	56	Click!
+A Sledgehammer	R	980	405	70	92*	all	18	HB	20	3	18	-2	35	36	Click!
+B Sledgehammer	R	1100 (1500)	455 (621)	70	92*	all	21	HB	35	6	15	1	51 (86)	40	Click!
+B Sledgehammer (Charge)	R	1100 (1500)	455 (621)	70	92*	all	21	HB	70	6	15	1	51 (86)	40	Click!
+Sledgehammer (followup)	R	1200	496	100	85	H	4	HBF	21	16	20	-17	44	54	Click!
+Gadget Finger	"-, R"	"0, 100"	"0, 538"	100	"100, 60"	350	0	down throw	7	1	16	+3*	during move	"12, 36"	Click!
+Voltec Charge	-	-	-	-	-	-	-	-	39	0	39	-	during move	-	Click!
+Spark Bolt	R	1100	455	65	80	all	4	HBP	13	-	48	1	during move	80	Click!
+Super															
+Magna Tech Wheel	R	"40x19, 2891"	"(9x19, 664)"	80	"88(once), 70"	"allx19, HA"	4	"HBx19, HBF"	19	58	72	-55	109	"60x19, 200"	Click!
+Terra Break	-	3500	0	100	45	all	4	HB	34	3	43	-27	64	80	Click!
+Genesic Emerald Tager Buster	-	"0x3, 5620"	"(0x3, 1292)"	100	"100, 82, 100, 92"	320	4	ground throw	5	5	41	-	during move	"12, 1000, 12, 100"	Click!
+King of Tager	-	death	0	-	-	320	5	unblockable	21	4	76	-	82	-	Click!

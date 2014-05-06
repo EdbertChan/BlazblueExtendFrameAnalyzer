@@ -1,0 +1,57 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox
+5A	CSJR	300	124	80	84	all	1	HB	6	3	12	-3	14	14	Click!
+5B	SJR	300x3	124*3	80	90(once)	HL	3	HB	11	8	12	2	21	17	Click!
+5C	SJR	800	331	90	90*	HL	4	HB	23	3	18	-2	31	24	Click!
+2A	CSR	300	124	80	85	LA	1	F	10	2	12	-2	14	14	Click!
+2B	CSR	460	190	80	90	L	2	F	11	2	10	2	14	14	Click!
+2C	R	800	331	100	92*	L	24	F	13	45	16	-36	63	40	Click!
+6A	SJR	600	248	80	89*	H	3	HB	23	2	15	0	27	17	Click!
+6B	SJR	500	207	100	90*	HL	3	HB	10	2	25	-10	22	39	Click!
+5A > 6B	SJR	500	207	100	90*	HL	3	HB	6	2	25	-10	18	39	Click!
+4B	SJR	600	248	80	90	L	3	F	19	3	21	-7	30	17	Click!
+6C	R	1000	414	85	89*	H	3	H	27	2	32	-17	41	35	Click!
+6C > C	R	1000	414	100	92*	HL	4	HB	21	4	32	-17	32	44	Click!
+6C > C > 2C	R	1000	414	100	92*	HL	4	H	24	4	36	-21	34	35	Click!
+3C	S(J)R	800	331	100	60	L	4	F	26	3	37	-21	41	40	Click!
+j.A	CSJR	300	124	80	90	HA	1	H	7	1	16	-	11	14	Click!
+j.B	SJR	220x5	91x5	90	85	HA	3	H	10	15	21	-	33	14	Click!
+j.C	SR	700	289	90	89*	HA	3	H	12	2	20	-	21	60	Click!
+j.6A	SJR	600	248	80	85	HA	3	H	13	3	13	-	20	22	Click!
+j.6B	SJR	600	248	80	85	HA	3	H	14	4	14	-	23	22	Click!
+j.6C	SJR	600	248	80	85	HA	3	H	15	5	14	-	25	22	Click!
+j.2A	R	600	248	80	92*	all	4	H	21	0	21	-	till landing	40	Click!
+j.2B	R	600	248	80	92*	all	4	H	22	0	22	-	till landing	40	Click!
+j.2C	R	600	248	80	92*	all	4	H	21	0	21	-	till landing	40	Click!
+Forward Throw	"-, SR"	"0, 1700"	"0, 703"	90	"100, 55"	120	0	ground throw	7	3	19	-	during move	"12, 34"	Click!
+Back Throw	"-, SR"	"0, 1700"	"0, 703"	90	"100, 55"	120	0	ground throw	7	3	19	-	during move	"12, 34"	Click!
+Air Throw	"-, SR"	"0, 1400"	"0, 579"	100	"100, 55"	120	0	air throw	7	3	15	-	during move	"12, 50"	Click!
+Dash Cancel	-	-	-	-	-	-	-	-	-	-	46	-	-	-	Click!
+corner j.44	-	-	-	-	-	-	-	-	-	-	47	-	during move	-	Click!
+Counter Assault	"-, SR"	0	0	100	"100, 86"	160	0	ground throw	4	2	22	-	during move	"12, 34"	Click!
+5D	SJR	480	198	100	85	HL	4	HBP	17	18	44	-43	62	19	Click!
+2D	R	"400, 520"	"155, 215"	90	84	all	12	FP	19	11	46	-12*	32	14	Click!
+2D(2)	R	"400, 520"	"155, 215"	90	84	all	10	FP	15	12	19	-12*	32	14	Click!
+6D	R	"560, 880"	"231, 0"	100/100	89/89	"HL,all"	3	HB.HBFP	14	16	19	-18	during move	30	Click!
+j.D	R	500	207	70	80*	all	3	FP	34	3	7	+8*	till landing	60	Click!
+A Bug	-	220	45	75	90	all	4	HBP	2	-	0	0	-	24	Click!
+B Bug	-	200x3	41x3	75	85(once)	all	3	HBP	5	-	0	0	-	26	Click!
+C Bug	-	650	134	70	95	all	4	FP	40	24	0	0	-	19	Click!
+D Bug	-	"150xN, 500"	"31xN, 103"	70	90(once)*	"all xN, HL"	3	HBP	1	96	0	0	-	"36xN, 50"	Click!
+Special															
+Zero Vector	-	-	-	-	-	-	-	-	33	400	46	-	during move	-	Click!
+if p then q (A)	-	-	-	-	-	-	-	-	-	-	48	-	44	-	Click!
+if p then q (B)	-	-	-	-	-	-	-	-	-	-	56	-	52	-	Click!
+if p then q (C)	-	-	-	-	-	-	-	-	-	-	85	-	75	-	Click!
+if p then q (air A)	-	-	-	-	-	-	-	-	-	-	46	-	41	-	Click!
+if p then q (air B)	-	-	-	-	-	-	-	-	-	-	54	-	49	-	Click!
+if p then q (air C)	-	-	-	-	-	-	-	-	-	-	44	-	39	-	Click!
+"y,two-dash"	R	200x8	124x8	100	90(once)	HA	3	H	11	24	11	-	38	35	Click!
+Equals Zero	-	-	-	-	-	-	-	-	-	-	30	-	during move	-	Click!
+Super															
+f?g	R	400x14	0	80	"92, 84x12, 10"	LA	18	HBP	25	15	32	-27	141	19	Click!
+f-inverse (body)	R	640	0	80	92	all	4	HBF	7	108	33	-122	141	19	Click!
+f-inverse (laser)	R	90x35	0	80	99x35	all	4	HBP	10	165	-	-	-	120x35	Click!
+n-infinity (1 bounce)	-	death	0	-	-	all	4	H	221	250	117	-	575	-	Click!
+n-infinity (3 bounce)	-	death	0	-	-	all	4	H	241	163	178	-	947	-	Click!
+n-infinity (horizontal)	-	death	0	-	-	all	4	H	251	66	94	-	616	-	Click!
+n-infinity (vertical)	-	death	0	-	-	all	4	H	118	79	121	-	562	-	Click!

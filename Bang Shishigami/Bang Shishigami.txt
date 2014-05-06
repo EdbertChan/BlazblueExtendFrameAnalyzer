@@ -1,0 +1,44 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox
+5A	SJR	300	124	80	84	all	1	HB	6	3	9	0	10	14	Click!
+5B	S(J)R	640	264	85	89	HL	3	HB	10	4	15	-2	22	16	Click!
+5C	SJR	860	356	70	92	H	4	HB	18	8	19	-8	40	19	Click!
+2A	SR	300	124	70	82	LA	0	F	8	3	9	-2	10	12	Click!
+2B	SJR	620	256	90	89	HL	3	BF	13	3	20	-6	18	20	Click!
+2C	S(J)R	750	310	80	92*	L	3	F	13	3	18	-4	27	40	Click!
+6A	SJR	540	223	80	89	L	3	F	17	3	13	1	25	17	Click!
+6B	R	780	332	80	92	HA	4	H	22	3	17	-1	33	19	Click!
+6C	SJR	920	380	100	94	H	5	H	15	3	42	-24	43	25	Click!
+3C	R	880	364	80	94	L	5	F	15	9	26	-14	43	40	Click!
+j.A	CSJR	300	124	90	84	HA	1	H	7	2	9	-	13	14	Click!
+j.B	SJR	560	231	90	87	HA	2	H	10	5	20	-	28	16[29]	Click!
+j.C	SR	650	269	90	89	HA	3	H	12	2	23	-	24	40	Click!
+j.4B	SJR	840	347	90	89	HA	3	H	11	4	16	-	18	17	Click!
+j.4C	SJR	600	248	100	89	HA	3	H	10	4	18	-	during animation	19[26]	Click!
+Forward Throw	"-, Rx2"	"0x2, 1000"	"0x2, 414"	"90, 100x2"	"100x2, 55"	120	0	ground throw	7	3	15	-	during animation	"12x2, 55"	Click!
+Back Throw	"-, Rx2"	"0x2, 1000"	"0x2, 414"	"90, 100x2"	"100x2, 55"	120	0	ground throw	7	3	15	-	during animation	"12x2, 55"	Click!
+Air Throw	"-, SRx2"	"0x2, 1500"	"0x2, 621"	100	"100x2, 55"	120	0	air throw	7	3	18	-	during animation	"12, 60, 49"	Click!
+Counter Assault	R	0	0	50	65	all	4	HB	8	3	34	-18	34	25	Click!
+5D [FRKZ]	S(J)R	680[1000]	281[414]	70	80*	HL	3	HB	24	4	28	-15	46[51]	23[30]	Click!
+5D	S(J)R	680[1000]	281[414]	70	80*	HL	3	HB	19	4	28	-15	46[51]	23[30]	Click!
+2D	JR	920[1000]	380[414]	70	92*	HL	4	HBF	24	3	26	-10	35	30[40]	Click!
+6D	S(J)R	850[1000]	351[414]	70	89*	LA	3	F	24	2	28	-13	49	40	Click!
+j.D	(J)R	750[1000]	310[414]	80	72[92]	all	3	H	4	1	24	-5*	during animation	17	Click!
+Special															
+Void Tempest Kick	"-, Rx4"	"0x2, 600, 653, 842"	"0x2, 248, 270, 348"	100	"100x2, 65, 90, 94"	100	5	ground throw	13	3	37	-	during animation	"12, 99x4"	Click!
+Void Tempest Kick EX	"-, Rx3"	"0, 700, 785, 1000"	"0, 289, 324, 414"	100	"100, 65, 90, 94"	120	5	air throw	7	3	20	-	during animation	"12, 99, 99, 50"	Click!
+Unstoppable Double Palm Thrust	R	1300	538	60	92*	HL	4	HB	16	2	24	-7	37	36	Click!
+Heavenly Double Palm Thrust	R	1300	538	100	94*	all	4	H	13	3	7	-4*	27	36	Click!
+A Shuriken	R	300	124	100	84	all	1	HBFP	9	0	23	-	during animation	14	Click!
+B Shuriken	R	300x2	124x2	100	"84, 89"	all	1	"HBFP, HBP"	16	0	36	-	during animation	"14, 17"	Click!
+C Shuriken	R	300	124	100	70	all	1	HBFP	18	-	9	-1*	until landing	14	Click!
+D Shuriken	R	177x3	73x3	100	82	all	0	HBFP	9	-	23	+5*	during animation	12	Click!
+Nail Set	-	-	-	-	-	-	-	-	-	-	30	-	during animation	-	Click!
+Nail Set (air)	-	-	-	-	-	-	-	-	-	-	33	-	during animation	-	Click!
+Nail Dash (air)	-	-	-	-	-	-	-	-	-	-	19	-	during animation	-	Click!
+Nail Dash (ground)	-	-	-	-	-	-	-	-	-	-	16	-	during animation	-	Click!
+Super															
+Fatal Eruption	R	"0, 910x4, 0, 3373"	0	"75, 100x6"	"89, 92x4, 100, 65"	all	4	"HBF, HBx4, throw , HB"	18	24	20	-27*	during animation	"17, 99x4, 12, 100"	Click!
+Fu-Rin-Ka-Zan	-	-	-	-	-	-	-	-	1	0	1	-	-	-	Click!
+Steel Rain	R	220xN	0	100	96	all	1	HBFP	37	14	85	-	80	14	Click!
+Ashura	R	"0, 3126"	0	100	"100, 40"	all	5	"HBF, HBP"	9	3	25	-7	31	300x2	Click!
+The Ultimate Bang	-	Death	0	-	-	280	3	throw	33	3	7	-	until landing	-	Click!

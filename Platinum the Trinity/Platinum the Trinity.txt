@@ -1,0 +1,70 @@
+Normals														
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech
+5A	CSJR	300	124	80	84	all	1	HB	6	2	11	-1	10	14
+5B	SR	560	231	85	89	HL	3	HB	11	6	16	-5	27	17
+5C	SJR	660	273	90	92	HL	4	HB	10	6	19	-6	28	19
+2A	SR	300	124	70	82	LA	0	F	8	3	8	-1	12	12
+2B	SR	500	207	80	86	L	2	F	10	3	18	-7	21	14
+2C	SR	800	331	100	92*	HL	4	HB	15	8	24	-13	40	50
+6A	SJR	540	223	80	80	HL	3	HB	12	4	22	-9	33	26
+6B	R	620	256	70	92	HA	4	HB	20	13	20	1	48	19
+6C	SJR	760	314	100	94*	all	5	HB	22	5	32	-17	56	40
+3C	SR	600	248	70	92	L	4	F	12	3	24	-8	33	30
+j.A	CSJR	220 (300)	91 (124)	90	84	HA	1	H	7	2	9	-	11	14
+j.B	SJR	480	198	90	86	HA	2	H	8	6	9	-	16	17
+j.C	SJR	660	273	90	89	HA	3	H	12	7	11	-	22	23
+j.2C	SJR	300x3	124x3	90	82(once)	HA	0	H	12	15	18	-	38	12
+Forward Throw	"-, SR"	"0, 1500"	"0, 621"	"90, 100"	"100, 55"	100	0	ground throw	7	3	19	-	during move	"12, 100"
+Back Throw	"-, SR"	"0, 1500"	"0, 621"	"90, 100"	"100, 55"	100	0	ground throw	7	3	18	-	during move	"12, 100"
+Air Throw	"-, R"	"0, 1500"	"0, 621"	100	"100, 55"	100	0	air throw	7	3	18	-	during move	"12, 100"
+Counter Assault	R	0	0	50	92	all	4	HB	12	4	29	-14	27	19
+5D (Get Item)	-	-	-	-	-	-	0	-	29	0	29	-	24	-
+j.D (Get Item)	-	-	-	-	-	-	0	-	28	0	28	-	23	-
+Magical Bat	R	600	248	50	92*	HL	3	HB	11	4	26	-11	30	17
+Magical Bat (air)	R	600	248	50	89	HA	3	H	11	8	22	-	34	17
+Magical Bat Special	R	800	331	75	94	HL	5	HB	11	5	24	-7	30	48
+Magical Bat Special (air)	R	800	331	75	94	HA	5	H	11	10	21	-	35	30
+Magic Missile	R	"400, 600"	"165, 248"	80	89	all	3	HBP	19	0	40	2	during move	"17, 40"
+Magic Missile (air)	R	"400, 600"	"165, 248"	80	89	all	3	HBP	19	0	40	-	during move	"17, 40"
+Magic Missile Special	R	"600, 1000"	"248, 414"	100	"92, 89"	all	4	HBP	19	0	40	2	during move	"19, 55"
+Magic Missile Special (air)	R	"600, 1000"	"248, 414"	100	"92, 89"	all	4	HBP	19	0	40	-	during move	"19, 55"
+Magical Bomb (5D)	R	"280, 800"	"115, 331"	80	"82, 89"	all	0	HBP	19	15	40	8	during move	"12, 40"
+Magical Bomb (4D)	R	"280, 800"	"115, 331"	80	"82, 89"	all	0	HBP	19	15	40	8	during move	"12, 40"
+Magical Bomb (6D)	R	"280, 800"	"115, 331"	80	"82, 89"	all	0	HBP	19	15	40	8	during move	"12, 40"
+Magical Bomb (air)	R	"280, 800"	"115, 331"	80	"82, 89"	all	0	HBP	19	15	40	-	during move	"12, 40"
+Magical Bomb Special (5D)	R	"420, 1200"	"173, 496"	85	"82, 89"	all	0	HBP	19	15	40	13	during move	"12, 40"
+Magical Bomb Special (4D)	R	"420, 1200"	"173, 496"	85	"82, 89"	all	0	HBP	19	15	40	13	during move	"12, 40"
+Magical Bomb Special (6D)	R	"420, 1200"	"173, 496"	85	"82, 89"	all	0	HBP	19	15	40	13	during move	"12, 40"
+Magical Bomb Special (air)	R	"420, 1200"	"173, 496"	85	"82, 89"	all	0	HBP	19	15	40	13	during move	"12, 40"
+Magical Cat Hammer	R	800	331	60	92	all	4	HB	11	8	20	-9	34	19
+Magical Cat Hammer (air)	R	800	331	60	92	HA	4	H	14	5	20	-	32	19
+Magical Cat Hammer Special	R	1200	496	70	94	all	5	HB	11	8	21	-8	33	21
+Magical Cat Hammer Special (air)	R	1200	496	70	94	HL	5	H	14	5	20	-	32	21
+Magical Frying Pan	R	500	207	86	94*	HL	2	HB	10	6	18	-10	27	60
+Magical Frying Pan (air)	R	500	207	70	94*	HA	2	H	12	4	16	-6*	25	40
+Magical Frying Pan Special	R	800	331	86	94*	HL	5	HB	10	6	18	2	27	55
+Magical Frying Pan Special (air)	R	800	331	86	94*	HA	5	H	12	4	16	+1*	25	55
+Magical Piko Hammer	R	1100	455	90	92	HL	4	HB	18	5	19	1	36	19
+Magical Piko Hammer (air Lv 1)	R	600x2	248x2	80	94	all	5	H	12	7	17	+3*	15F after landing	30
+Magical Piko Hammer (air Lv 2)	R	700x2	"248, 289"	80	94	all	5	H	12	7	17	+6*	15F after landing	30
+Magical Piko Hammer (air Lv 3)	R	800x2	"248, 331"	80	94	all	5	H	12	7	17	+8*	15F after landing	30
+Magical Piko Hammer Special	R	1600	662	100	94	HL	5	HB	17	5	21	2	33	21
+Magical Piko Hammer Special (air)	R	"900, 950"	"372, 393"	80	94	all	5	H	13	1	26	+4*	18F after landing	30x2
+Magical Piko Hammer Special (quake)	R	0	0	70	94	unblockable	5	HBP	21	1	0	-	-	21
+Specials														
+Dream Sally	R	600	248	100	82*	all	0	HBP	28	5	48	-6	during move	12
+Swallow Moon	refer to note*	-	-	-	-	-	0	-	0	0	90	-	during move	-
+Mami Circular	R	1690	699	80	92*	all	4	HB	18	15	28	-24	53	60
+Air Persia (animation)	-	-	-	-	-	-	-	-	-	-	40	-	36[2F after landing]	-
+Air Persia (attack)	R	450[300]	186[124]	100	82	all	0	H	12	6	4	-	during move	22
+Dramatic Sally	-	"0, 1500"	"0, 621"	100	"100, 89"	100	"0, 3"	ground throw	24	3	25	-	21F of recovery	"12, 100"
+Mystique Momo	R	550	227	100	94	all	5	HBP	19	15	40	14	during move	30
+Mystique Momo (Magical Missile)	R	"(400, 600)xN"	"(165, 248)xN"	80	89	all	3	HBP	19	15	42	+8*	during move	"17, 40"
+Mystique Momo (Magical Missile Special)	R	"(600, 1000)xN"	"(248, 414)xN"	100	"92, 89"	all	4	HBP	19	15	42	refer to notes*	during move	"19, 55"
+Mystique Momo (Magical Bomb)	R	"(280, 800)xN"	"(115, 331)xN"	100	"82, 89"	all	0	HBP	19	15	40	+14*	during move	"12, 40"
+Mystique Momo (Magical Bomb Special)	R	"420, 1200"	"173, 496"	100	"82, 89"	all	0	HBP	19	15	40	+19*	during move	"12, 40"
+Falling Melody	R	400	165	100	94	all	5	HB	14	8	18	-5	34	30
+Super
+Miracle Jeanne	-	-	-	-	-	-	0	0	0	0	8	-	during move	-
+Cure Dot Typhoon	R	"800x2, 260x11"	0	70	92	all	4	HB	11	101	44	-	during move	100
+Shining Layered Force	-	death	0	-	-	all	5	HBP	37	3	10	8	during move	-

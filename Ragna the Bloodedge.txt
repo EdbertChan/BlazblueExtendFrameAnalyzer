@@ -1,0 +1,55 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech
+5A	CSJR	300	124	80	84	all	1	HB	5	3	9	0	10	14
+5B	SR	660	372	85	89	HL	3	HB	8	8	16	-7	18	19
+5C	S(J)R	800	331	90	92	HL	4	HB	13	4	20	-5	26	19
+2A	CSR	300	124	80	84	all	1	F	7	2	10	0	10	14
+2B	SR	500	207	80	86	L	2	F	9	2	15	-3	16	14
+2C	SR	720	298	100	89	HL	3	F	12	3	13	1	21	20
+6A	SJR	620	256	80	80	HL	3	HB	13	4	18	-5	22	26
+6B	SR	720	298	75	89	H	3	HB	24	4	19	-4	37	19
+6C	"SR, SJR"	"512, 608"	"211, 251"	90	92	"L, HL"	4	"F, HB"	20	5(11)2	33	-16	58	"19, 50"
+3C	SJR	720	298	90	88	L	4	F	12	3	27	-11	32	40
+j.A	CSJR	300	124	90	84	HA	1	H	7	3	9	-	12	14
+j.B	SJR	500	207	90	86	HA	2	H	10	9	12	-	TA	14
+j.C	SJR	620	298	90	89	HA	3	H	12	3	24	-	29	17
+Forward Throw	"-, SR"	"0, 1400"	"0, 579"	90	"100, 55"	100	0	GR.T	7	3	19	-	TA	"-, 100"
+Back Throw	"-, SR"	"0, 1400"	"0, 579"	90	"100, 55"	100	0	GR.T	7	3	19	-	TA	"-, 48"
+Air Throw	"-, SR"	"0, 1400"	"0, 579"	100	"100, 55"	90	0	AIR.T	7	3	15	-	TA	"-, 80"
+Dash	-	-	-	-	-	-	-	-	22	-	22	-	TA	-
+Counter Assault	R	0	0	50	92	all	4	HB	7	19	23	-23	30	19
+5D	SR	"544, 760"	"225, 314"	100	"92, 80"	"HL, all"	5	"HB, HBF"	17	5(12)1	44	-24	62	"30, 38"
+5D(BK)	SR	"750, 1000"	"310, 414"	100	"92, 80*"	"HL, all"	5	"HB, HBF"	17	5(12)1	44	-24	62	"30, 50"
+2D	R	750	310	90	94	L	5	F	18	2	23	-4	31	46
+2D(BK)	R	1050	434	90	75	L	5	F	18	2	23	-4	31	54
+6D	SJR	750	310	90	94	HL	5	HB	26	3	32	-14	50	30
+6D(BK)	SJR	1000	414	90	89	HL	5	HB	22	3	32	-14	46	40
+j.D	SJR	590	244	90	89	HA	3	H	13	4	20	-	TA	24
+j.D(BK)	SJR	900	372	90	80	HA	3	H	11	4	20	-	TA	36
+Special														
+Hell's Fang	R	730	302	75	70	all	4	HB	15	13	33	-4	21F of recovery	40
+Additional Attack	R	950	786	100	92	all	4	HB	23	3	35	-19	TA	56
+Additional Attack(BK)	R	1200	993	100	100	all	4	HB	23	3	27	-11	TA	80
+C Inferno Divider	R	"420, 460"	"173, 190"	70	92	HL	4	HBF	7	6	43	-30	TA	42
+C Inferno Divider(air)	R	"420, 460"	"173, 190"	85	92	all	4	HB	7	6	19	-	49	42
+D Inferno Divider	R	600*2	248*2	100	92	HL	4	HBF	7	12	46	-39	TA	42
+D Inferno Divider(air)	R	600*2	248*2	100	92	all	4	HB	7	12	19	-	50	42
+D Inferno Divider(BK)	R	650*2	269*2	100	92	HL	4	HBF	7	12	46	-39	TA	42
+D Inferno Divider(BK)(air)	R	650*2	269*2	100	92	all	4	HB	7	12	19	-	50	42
+Upper	R	310	126	100	92	all	4	H	14	3	19	-	42	42
+Straight Punch	R	400	165	100	70	all	4	H	15	3	12	-	32	18*
+Ax Kick	R	480	198	100	50	all	4	H	19	4	13	-	till L	50
+Ax Kick(BK)	R	1000	414	100	90	all	4	H	19	4	11	-	TA	60
+Gauntlet Hades	R	800	331	90	88	HA	4	H	20	7	28	-11	40	35
+Gauntlet Hades(air)	R	700	289	90	92	HA	4	H	12	9	15	-9	till L	35
+Spin Kick	R	550	227	100	60	all	4	H	9	3	20	-12	till L	51
+Spin Kick(BK)	R	1100	455	100	90	all	4	H	9	3	20	-12	till L	70
+Dead Spike	R	1000	414	100	96	all	4	HBFP	28	12	22	3	43	36
+Dead Spike(BK)	R	600*3	248*3	100	96(once)	all	4	HBFP	28	12	27	5	43	50
+Not Over Yet	"-, R"	"0, 400"	"0, 165"	100	"100, 92"	200	0	DWN.T	7	3	16	4	TA	"12, 19"
+Belial Edge	R	"600, 100*N"	"248, 41*N"	75	90(once)	all	4	H	15	1	16	1	TA	44*
+Super
+Carnage Scissors	R	"1000, 2300"	0	85	92	all	4	HB	9	4	64	-49	TA	"90, 80"
+Carnage Scissors(BK)	R	"1000, 2300"	0	85	92	all	4	HB	9	4	64	-49	TA	"90, 80"
+Blood Kain	-	-	-	-	-	-	-	-	20	1	20	-	-	-
+Devoured By Darkness	R	"0, 6000"	0	100	"92, 5"	unblockable	4	HB	30	3	56	-	TA	"19, 100"
+Black Onslaught	-	death	0	-	-	all	5	HB	28	2	25	-12	41	-

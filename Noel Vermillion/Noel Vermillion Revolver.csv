@@ -1,0 +1,30 @@
+,A,B,C,D,Cancels
+5A,"5A, 2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D, 4D","Throw, Jump, Special"
+5B,-,"2B, 6B","5C, 2C, 3C","5D, 2D, 6D, 4D","Throw, Jump, Special"
+5C,-,6B,"2C, 3C","5D, 2D, 6D, 4D","Throw, Jump, Special"
+2A,2A,"5B, 2B, 6B","5C, 2C, 6C","5D, 2D, 6D, 4D","Throw, Jump, Special"
+2B,6A,"5B, 2B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D, 4D","Throw, Special"
+2C,-,-,"5C, 3C","5D, 2D, 6D, 4D",Special
+6A,-,"5B, 6B","5C, 2C, 6C, 3C","5D, 2D, 6D, 4D","Throw, Jump, Special"
+6B,-,-,"6C, 3C","5D, 2D, 6D, 4D","Throw, Jump, Special"
+6C,-,-,2C,"5D, 2D, 6D, 4D","Throw, Jump, Special"
+3C,-,-,-,-,Special
+5D,"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","2D (chain followup), 6D (chain followup), 4D (chain followup) ",Special
+2D,"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","2D (chain followup), 6D (chain followup), 4D (chain followup) ",Special
+6D,"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 4D (chain followup) ",Special
+4D,"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup) ",Special
+5A (chain followup),6A (chain followup),"5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup) ",Super
+6A (chain followup),5A (chain followup),"5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup) ",Super
+5B (chain followup),"5A (chain followup), 6A (chain followup)",6B (chain followup),"5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup) ",Super
+6B (chain followup),"5A (chain followup), 6A (chain followup)",5B (chain followup),"5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup) ",Super
+5C (chain followup),"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)",6C (chain followup),"5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup) ",Super
+6C (chain followup),"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)",5C (chain followup),"5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup) ",Super
+5D (chain followup),"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","2D (chain followup), 6D (chain followup), 4D (chain followup) ",Super
+2D (chain followup),"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 6D (chain followup)",Super
+6D (chain followup),"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 4D (chain followup) ",Super
+4D (chain followup),"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup) ",Super
+j.D,"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup)",Special
+j.4D,"5A (chain followup), 6A (chain followup)","5B (chain followup), 6B (chain followup)","5C (chain followup), 6C (chain followup)","5D (chain followup), 2D (chain followup), 6D (chain followup), 4D (chain followup)",Special
+j.A,j.A,j.B,j.C,"j.D, j.4D","Jump, Throw, Special"
+j.B,j.A,j.B,j.C,"j.D, j.4D","Jump, Throw, Special"
+j.C,j.A,j.B,j.C,"j.D, j.4D","Throw, Special"

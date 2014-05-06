@@ -1,0 +1,54 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox	
+5A	CSJR	300	124	80	84	all	1	HB	6	6	7	-1	14	11	Click!	
+5B	SJR	530	219	100	91	HL	3	HB	9	3	20	-6	22	17	Click!	
+5C	SR	720	296	90	94	HL	4	HB	12	3	20	-4	27	22	Click!	
+2A	CSR	300	124	80	84	all	1	F	7	4	10	-2	16	14	Click!	
+2B	SR	450	186	80	87	L	2	F	8	4	10	0	15	14	Click!	
+2C	S(J)R	720	286	80	91	HL	3	HB	14	3	27	-13	36	23	Click!	
+6A	SJR	620	256	80	91	HL	3	HB	11	4	20	-7	24	26	Click!	
+6B	SR	680x2	281x2	70	94*	H	4	HB	22	4	18	-1	49	"19, 38"	Click!	
+6C	SR	820	339	100	96*	all	5	HBP	20	6	42	-27	58	60	Click!	
+3C	SJR	660	273	90	88	L	3	F	14	3	24	-10	38	24	Click!	
+j.A	CSJR	300	124	90	84	HA	1	H	8	2	15	-	18	14	Click!	
+j.B	SJR	440	182	90	87	HA	2	H	10	6	21	-	30	14	Click!	
+j.C	S(J)R	700	289	90	91	HA	3	H	13	6	18	-	33	23	Click!	
+j.2C	SR	750	310	70	88	HA	3	H	21	6	36	-	52	40	Click!	
+Forward Throw	-	"0, 1000"	"0, 414"	90	"100, 55"	100	0	ground throw	7	3	26	-	27	"12, 100"	Click!	
+Back Throw	-	"0, 1000"	"0, 414"	90	"100, 55"	100	0	ground throw	7	3	26	-	27	"12, 100"	Click!	
+Air Throw	"-, R"	"0, 2000"	"0, 828"	100	"100, 55"	120	0	air throw	7	3	18	-	21	"12, 60"	Click!	
+Counter Assault	R	0	0	50	94	all	4	HB	9	4	39	-23	12	19	Click!	
+5D	SJ	300	124	75	92	all	1	HBP	21	-	44	-	32	15	Click!	
+5D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	37	-	71	-	60	17	[D.html Click!]	
+2D	SJ	300	124	75	92	all	1	HBP	23	-	43	-	35	15	Click!	
+2D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	43	-	68	-	56	17	[D.html Click!]	
+6D	SJ	300	124	75	92	all	1	HBP	23	-	49	-	34	15	Click!	
+6D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	42	-	62	-	52	17	[D.html Click!]	
+4D	SJ	300	124	75	92	all	1	HBP	23	-	49	-	34	15	Click!	
+4D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	42	-	62	-	52	17	[D.html Click!]	
+j.D	SJ	300	124	75	92	all	1	HBP	21	-	42	-	31	15	Click!	
+j.D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	40	-	62	-	49	17	[D.html Click!]	
+j.2D	SJ	300	124	75	92	all	1	HBP	29	-	42	-	31	15	Click!	
+j.2D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	40	-	62	-	49	17	[D.html Click!]	
+j.6D	SJ	300	124	75	92	all	1	HBP	29	-	42	-	31	15	Click!	
+j.6D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	40	-	62	-	49	17	[D.html Click!]	
+j.4D	SJ	300	124	75	92	all	1	HBP	29	-	42	-	31	15	Click!	
+j.4D (charge)	SJ	470x3	194x3	75	90(once)	all	3	HBP	40	-	62	-	49	17	[D.html Click!]	
+Special																
+Totsuka Blade	R	500	207	100	91(once)	all	3	HBP	46	-	63	-	60	25	Click!	
+Totsuka Blade (air)	R	500	207	100	91(once)	all	3	HBP	47	-	5	-	65	25	Click!	
+Arrows of Heaven	R	400x5	165x5	60	60(once)	all	3	HBP	23	100	54	-7	48	17	Click!	
+Arrows of Heaven (air)	R	400x5	165x5	60	60(once)	all	3	HBP	23	100	54	-	45	17	Click!	
+Origins	R	800	331	60	80	all	4	HB	10	9	37	-27	51	28	Click!	
+Origins (air)	R	800	331	60	80	all	4	HB	10	9	15	-	during move	28	Click!	
+Sword of Decimation (Lv 1)	R	920	380	90	95*	HL	4	HB	19	5	24	-10	38	38	Click!	
+Sword of Decimation (Lv 2)	R	1020	422	90	95*	HL	4	HB	34	5	24	-10	53	38	Click!	
+Sword of Decimation (Lv 3)	R	1120	463	90	95*	HL	31	HB	41	5	24	3	60	36	Click!	
+63214C																
+Sword of Decimation (Lv 4)	R	1520	629	90	95*	HL	36	HB	61	5	25	7	80	60	Click!	
+Divine Wrath of the Heavens	-	600x3	248x3	80	91	all	3	HBP	35	28	42	40	34~65F	25	Click!	
+Super																
+Wisdom of the Divine	R	"800, 650x8"	"(184, 149x8)"	100	"94, 70x8"	all	"4, 5x8"	HB	10	8	43	-32	47	"1000, 21x8"	Click!	
+Blessed Mirror	R	800	-184	100	95	all	3	HBP	14	-	70	-	61	45	Click!	
+Blessed Mirror (air)	R	800	-184	100	95	all	3	HBP	19	-	5	-	68	45	Click!	
+Blessed Mirror (lasers)	-	600	-138	100	91	all	1	HBP	10	-	-	-	-	45		
+Sword of the Godslayer	-	death	0	-	-	all	4	HB	17	4	51	-36	55	-	Click!	

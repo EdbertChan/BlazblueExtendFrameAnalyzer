@@ -1,0 +1,38 @@
+,A,B,C,D,Cancels
+5A,"5A, 2A, 6A","5B, 2B, 6B","5C, 2C, 6C, 3C",Yes,"Throw, Jump, Special"
+5B,6A,"2B, 6B","5C, 2C, 6C, 3C",-,"Jump, Special"
+5C,-,-,"2C, 6C, 3C",Yes,"Jump, Special"
+2A,"5A, 2A, 6A","5B, 2B","5C, 2C, 6C",-,"Throw, Special"
+2B,6A,"5B, 6B","5C, 2C, 3C",-,Special
+2C,-,-,"5C, 3C",Yes,"Jump, Special"
+6A,-,-,-,-,"Super"
+6B,-,-,-,-,"Super"
+6C,-,-,-,-,-
+3C,-,-,-,-,Special
+j.A,j.A,j.B,j.C,-,"Throw, Jump, Special"
+j.B,-,-,j.C,-,"Jump, Special"
+j.C,-,-,j.C 5 times,-,"Jump(First 2 Hits), Special"
+j.2C,-,-,-,-,"Jump, Special"
+j.C (1),"j.C (1), j.C (2)",,,,"Jump, Special"
+j.C (2),"j.C (1), j.C (2)",,,,"Jump, Special"
+j.C (3),j.C (4),,,,"Jump, Special"
+j.C (4),j.C (5),,,,"Jump, Special"
+5D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+2D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+6D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+4D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+j.D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+j.2D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+j.6D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+j.4D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+j.8D (Close),"A Followup, B Followup, C Followup, D Followup",,,,
+5D,"A Followup, B Followup, C Followup, D Followup",,,,
+2D,"A Followup, B Followup, C Followup, D Followup",,,,
+6D,"A Followup, B Followup, C Followup, D Followup",,,,
+4D,"A Followup, B Followup, C Followup, D Followup",,,,
+j.D,"A Followup, B Followup, C Followup, D Followup",,,
+j.2D,"A Followup, B Followup, C Followup, D Followup",,,
+j.6D,"A Followup, B Followup, C Followup, D Followup",,,
+j.4D,"A Followup, B Followup, C Followup, D Followup",,,
+j.8D,"A Followup, B Followup, C Followup, D Followup",,,
+Jasetsu,"Ressenga, Ressenga (S)","Gashoukyaku, Gashoukyaku (S)","Zaneiga, Zaneiga (S)",Stance Cancel

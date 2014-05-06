@@ -1,0 +1,48 @@
+Name	Cancel	Damage	Heat Gain	P1	P2	Guard	Level	Attribute	Startup	Active	Recovery	Frame Adv	Counter Hit	Untech	Hitbox	
+5A	SJR	400	49	85	84	HL	1	HB	5	3	6	3	9	18	Click!	
+5B	SJR	590	73	90	89	HL	3	HB	10	2	15	0	15	17	Click!	
+5C	SR	1110	137	100	92	HL	4	HBF	14	2	20	-3	27	19	Click!	
+2A	CSR	350	43	85	84	all	1	F	7	3	8	1	12	14	Click!	
+2B	SR	450	55	80	86	L	2	F	8	2	10	2	13	16	Click!	
+2C	S(J)R	1050	130	90	92	HL	4	HB	13	3	33	-17	32	19	Click!	
+6A	R	620	77	85	89*	HL	20	HB	16	3	18	0	27	27	Click!	
+6B	R	590x2	73x2	50	90(once)	H	21	BF	18	"2, 3"	23	-4	35	30	Click!	
+6C	DR	1300	161	100	92*	HL	4	HB	20	3	25	-6	41	44	Click!	
+6C (charge)	DR	1600	198	100	92*	HL	4	HB	24	3	25	-6	19 after active	44	Click!	
+6C (full charge)	DR	2000	248	100	92*	HL	4	HB	50	3	25	-9	71	70	Click!	
+4C	SR	700	86	80	89	HL	3	HB	15	1	26	-10	entire move	17	Click!	
+4C (max charge)	R	1600	198	80	94	HL	35	HB	68	7	26	3	entire move	40	Click!	
+3C	R	1200	149	90	88	L	4	F	9	3	25	-4	24	36	Click!	
+j.A	CSJR	400	49	85	84	HA	1	H	7	3	9	-	12	18	Click!	
+j.B	SJR	590	73	90	89	HA	3	H	9	3	20	-	23	24	Click!	
+j.C	SR	900	111	90	89	HA	3	H	12	2	32	-	35	33	Click!	
+j.2A	SR	980	121	80	75	HA	4	H	11	2	15	-	18	40	Click!	
+j.2C	SR	1000	124	90	92	HA	4	H	16	4	30	-	25	19	Click!	
+Forward Throw	SR	"0, 1600"	"0, 198"	"90, 100"	"100, 55"	120	0	ground throw	7	3	21	-	entire move	"12, 60"	Click!	
+Back Throw	"-, SRx2"	"0, 800x2"	"0, 99x2"	"90, 100x2"	"100, 110, 50"	120	0	ground throw	7	3	21	-	entire move	"12, 60x2"	Click!	
+Air Throw	"-, SRx2"	"0x2, 1500"	"0x2, 186"	100	"100x2, 55"	100	0	air throw	7	3	15	-	entire move	"12, 70x2"	Click!	
+Counter Assault	R	0	0	50	92	all	4	HB	11	3	30	-14	34	19	Click!	
+5D (catch)	-	-	-	-	-	-	-	-	5	16	13	-	entire move	-	Click!	
+2D (catch)	-	-	-	-	-	-	-	-	1	8	34	-	entire move	-	Click!	
+6D (catch)	-	-	-	-	-	-	-	-	1	9	26	-	entire move	-	Click!	
+j.D (catch)	-	-	-	-	-	-	-	-	1	7	12	-	entire move	-	Click!	
+5D (attack)	DR	"0, 1400"	0*	100	"100, 45"	-	0	unblockable	4	10	6	-	-	"12, 42"	Click!	
+2D (attack)	DR	"0, 1100"	0*	100	"100, 45"	-	0	unblockable	7	10	15	-	-	"12, 50"	Click!	
+6D (attack)	DR	"0, 1400"	173	100	"100, 45"	-	0	unblockable	4	10	10	-	-	"12, 33"	Click!	
+j.D (attack)	R	"0, 2000"	0	100	"100, 45"	-	0	unblockable	4	10	6	-	-	"12, 83"	Click!	
+Special																
+Gurren	SR	560	69	100	89*	all	4	HB	14	3	15	1	22	60	Click!	
+Renka	SRx2	"830, 860"	"103, 106"	90	"100, 55 *"	"L, HL"	4	"F, HB"	9	3	15	1	35	"50, 34"	Click!	
+Zantetsu	SRx2	"2430, 550"	"301, 68"	90	"80, 94"	"HA, LA"	4	"HB, F"	21	3	18	-2	48	"19, 30"	Click!	
+Kishuu	-	-	-	-	-	-	0	-	-	-	18	-	14	-	Click!	
+Enma	SJR	860	106	90	75	HL	4	HB	15	7	31	-19	37	42	Click!	
+Hotaru	SJR	1500	186	70	92*	HL	3	H	11	2	23	-	24	55	Click!	
+Tsubaki	SR	2200	273	70	90*	HA	4	HB	15	3	22	-	21	55	Click!	
+Super
+Shippu (sword)	SR	4000[5500]	0	100	60	all[Unblockable]	4	HBF	10	4	50	-35	52[123]	50	Click!	
+Shippu (wave)	SR	2500	0	100	80	all	0	FP	14	-	-	-	-	50		
+Yukikaze (catch)	-	-	-	-	-	-	-	-	1	27	17	-	entire move	-	Click!	
+Yukikaze (attack)	SR	3800	0	100	30	Unblockable	4	HBF	56	15	39	-	121	60	Click!	
+Mugen	-	-	-	-	-	-	-	-	-	-	49	-	entire move	-	Click!	
+Akumetsu	-	death	0	-	-	Unblockable	0	HBF	1	20	16	-	entire move	-	Click!	
+														
